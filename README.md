@@ -14,7 +14,7 @@ All available swine IAV NA-N2 sequences from H1N2 and H3N2 subtype were download
 
 # Commands used in downsampling the full N2-NA phylogeny
 
-smot clean N2-allData-v1.tre | 
+smot clean N2-allData-v1.tre | \\
 	smot factor prepend --impute --factor-by-capture="\\|(98B[^|]*|98A[^|]*|02A[^|]*|02B[^|]*|Human_seasonal_N2|98|02)\\|" | 
 	smot factor prepend --impute --patristic --factor-by-capture="^(98B[^|]*|98A[^|]*|02A[^|]*|02B[^|]*|Human_seasonal_N2|98|02)\\|" |
 	smot sample para -s 0.5 --seed=42 --min-tips=3 --keep-regex="REF\\|" --factor-by-capture="^([^|]+)" > n2-all-sampled.tre
