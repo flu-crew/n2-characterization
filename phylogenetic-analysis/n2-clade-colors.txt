@@ -1,0 +1,21 @@
+"human"="#999999", 153,153,153 - GRAY
+"2016-introduction"- BLACK
+
+N2-02 Red #ff0000 rgb(255, 0, 0)
+n2-2002A rgb(28,33,129)
+N2-02A.1 Orange #ffa500 rgb(255, 165, 0)
+N2-02A.2 Yellow #ffff00 rgb(255, 255, 0)
+
+N2-2002B rgb(5,54,31)
+N2-02B.1 Green #00ff00 rgb(0, 255, 0)
+N2-02B.2 Light Green #98fb98 rgb(152, 251, 152)
+
+
+
+N2-1998 rgb(122,0,65)
+N2-98A.1 Purple #551a8b rgb(85, 26, 139)
+N2-98A.2 Magenta #ff00ff rgb(255, 0, 255)
+
+N2-98B Blue #0000ff rgb(0, 0, 255)
+n2-1998B.1 rgb(97,23,112)
+N2-98B.2 turquois #40e0d0 rgb(64, 224, 208)
